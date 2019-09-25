@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gatway/api-gatway.iml" filepath="$PROJECT_DIR$/api-gatway/api-gatway.iml" />
       <module fileurl="file://$PROJECT_DIR$/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/auth-service/auth-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-service.iml" filepath="$PROJECT_DIR$/micro-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2-jwt-resource/oauth2-jwt-resource.iml" filepath="$PROJECT_DIR$/oauth2-jwt-resource/oauth2-jwt-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2-jwt-server/oauth2-jwt-server.iml" filepath="$PROJECT_DIR$/oauth2-jwt-server/oauth2-jwt-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />

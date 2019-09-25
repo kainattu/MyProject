@@ -20,10 +20,11 @@
 
     <modules>
         <module>eureka-server</module>
-        <module>zuul-server</module>
+        <module>api-gatway</module>
         <module>order-service</module>
         <module>product-service</module>
-        <module>auth-service</module>
+	    <module>oauth2-jwt-server</module>
+        <module>oauth2-jwt-resource</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -50,24 +51,33 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
 
-   <!-- <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-        </pluginRepository>
-    </pluginRepositories>-->
+    <!-- <repositories>
+         <repository>
+             <id>spring-milestones</id>
+             <name>Spring Milestones</name>
+             <url>https://repo.spring.io/milestone</url>
+         </repository>
+     </repositories>
+     <pluginRepositories>
+         <pluginRepository>
+             <id>spring-milestones</id>
+             <name>Spring Milestones</name>
+             <url>https://repo.spring.io/milestone</url>
+         </pluginRepository>
+     </pluginRepositories>-->
 
     <repositories>
         <repository>

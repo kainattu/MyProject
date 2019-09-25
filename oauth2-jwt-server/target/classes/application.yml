@@ -1,0 +1,21 @@
+server:
+  port: 9000
+
+security:
+  jwt:
+    key-store: classpath:keystore.jks
+    key-store-password: letmein
+    key-pair-alias: mytestkey
+    key-pair-password: changeme
+
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
+  application:
+       name: oath2-service
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
