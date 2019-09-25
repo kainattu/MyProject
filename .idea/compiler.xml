@@ -6,17 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="product-service" />
-        <module name="zuul-server" />
-        <module name="order-service" />
-        <module name="auth-service" />
+        <module name="oauth2-jwt-server" />
         <module name="eureka-server" />
+        <module name="product-service" />
+        <module name="order-service" />
+        <module name="zuul-server" />
+        <module name="api-gatway" />
+        <module name="oauth2-jwt-resource" />
+        <module name="auth-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gatway" target="1.8" />
       <module name="auth-service" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="micro-service" target="1.8" />
+      <module name="oauth2-jwt-resource" target="1.8" />
+      <module name="oauth2-jwt-server" target="1.8" />
       <module name="order-service" target="1.8" />
       <module name="product-service" target="1.8" />
       <module name="zuul-server" target="1.8" />

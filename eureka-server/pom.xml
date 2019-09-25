@@ -14,8 +14,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>eureka-server</artifactId>
-    <name>Registory-Service</name>
-    <description>Eureka Server,Zual Proxy project for Spring Boot</description>
+    <name>eureka-server</name>
+    <description>Eureka (registory) Server,Zual Proxy project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>

@@ -1,0 +1,5 @@
+/home/kainattu/Projects/MyProject/oauth2-jwt-resource/src/main/java/com/kainattu/microservice/oauth/jwt/ds/config/ResourceServerConfiguration.java
+/home/kainattu/Projects/MyProject/oauth2-jwt-resource/src/main/java/com/kainattu/microservice/oauth/jwt/ds/config/SecurityProperties.java
+/home/kainattu/Projects/MyProject/oauth2-jwt-resource/src/main/java/com/kainattu/microservice/oauth/jwt/ds/ResourceServerJwtApplication.java
+/home/kainattu/Projects/MyProject/oauth2-jwt-resource/src/main/java/com/kainattu/microservice/oauth/jwt/ds/config/WebSecurityConfiguration.java
+/home/kainattu/Projects/MyProject/oauth2-jwt-resource/src/main/java/com/kainattu/microservice/oauth/jwt/ds/web/UserController.java

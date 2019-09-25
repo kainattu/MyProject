@@ -1,0 +1,21 @@
+server:
+  port: 9100
+
+
+
+eureka:
+   client:
+     service-url:
+        default-zone: http://localhost:8761/eureka/
+
+
+security:
+  jwt:
+    public-key: classpath:public.txt
+
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  application:
+     name: resource-server
