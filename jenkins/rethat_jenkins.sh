@@ -2,9 +2,10 @@
 
 echo $HOME
 
+rm -R $HOME/jenkins_drive
 mkdir $HOME/jenkins_drive
 
-docker run \
+sudo docker run \
   --rm \
   -d \
   -p 8080:8080 \
