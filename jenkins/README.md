@@ -14,4 +14,13 @@ My real time project, this is contains.
 
 Oauth2 referance : http://blog.marcosbarbero.com/centralized-authorization-jwt-spring-boot2/
 
+#Jenkisn isntallation and CI/CD with Docker Swarm . 
+https://medium.com/@khandelwal12nidhi/ci-cd-with-jenkins-and-ansible-e9163d4a6e82
 
+# the jenkins EC2 step, use 
+
+box_bootstrap.sh
+
+and
+
+jenkins_ec2_server.sh
