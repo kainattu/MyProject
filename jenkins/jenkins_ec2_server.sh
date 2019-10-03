@@ -18,7 +18,9 @@ PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
 
 export PATH
 
-sudo alternatives --config java >> java_version_list.log
+# user this comment if you have more than one jdk installad.
+
+#sudo alternatives --config java >> java_version_list.log
 
 sudo yum update
 
